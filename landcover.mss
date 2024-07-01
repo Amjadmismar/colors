@@ -1,24 +1,24 @@
 // --- Parks, woods, other green things ---
 
-@grass: #ffffff;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
-@scrub: #ffffff;        // Lch(84,24,122)
-@forest: #ffffff;       // Lch(80,30,135)
-@forest-text: #ffffff;  // Lch(40,30,135)
-@park: #ffffff;         // Lch(94,30,145)
-@allotments: #ffffff;   // Lch(87,20,135)
-@orchard: #ffffff; // also vineyard, plant_nursery
+@grass: #F2F3F0;        // Lch(90,32,128) also grassland, meadow, village_green, garden, allotments
+@scrub: #F2F3F0;        // Lch(84,24,122)
+@forest: #F2F3F0;       // Lch(80,30,135)
+@forest-text: #F2F3F0;  // Lch(40,30,135)
+@park: #F2F3F0;         // Lch(94,30,145)
+@allotments: #F2F3F0;   // Lch(87,20,135)
+@orchard: #F2F3F0; // also vineyard, plant_nursery
 @hedge: @forest;       // Lch(80,30,135)
 
 // --- "Base" landuses ---
 
-@built-up-lowzoom: #d0d0d0;
-@built-up-z12: #dddddd;
-@residential: #ffffff;      // Lch(89,0,0)
-@residential-line: #ffffff; // Lch(75,0,0)
-@retail: #ffffff;           // Lch(89,16,30)
-@retail-line: #ffffff;      // Lch(70,25,30)
-@commercial: #ffffff;       // Lch(89,8.5,25)
-@commercial-line: #ffffff;  // Lch(75,12,25)
+@built-up-lowzoom: #F2F3F0;
+@built-up-z12: #F2F3F0;
+@residential: #F2F3F0;      // Lch(89,0,0)
+@residential-line: #F2F3F0; // Lch(75,0,0)
+@retail: #F2F3F0;           // Lch(89,16,30)
+@retail-line: #F2F3F0;      // Lch(70,25,30)
+@commercial: #F2F3F0;       // Lch(89,8.5,25)
+@commercial-line: #F2F3F0;  // Lch(75,12,25)
 @industrial: #ffffff;       // Lch(89,9,330) (Also used for railway, wastewater_plant)
 @industrial-line: #ffffff;  // Lch(75,11,330) (Also used for railway-line, wastewater_plant-line)
 @farmland: #ffffff;         // Lch(94,14,112)
@@ -28,10 +28,10 @@
 
 // --- Transport ----
 
-@transportation-area: #e9e7e2;
-@apron: #dadae0;
-@garages: #dfddce;
-@parking: #eeeeee;
+@transportation-area: #F2F3F0;
+@apron: #F2F3F0;
+@garages: #F2F3F0;
+@parking: #F2F3F0;
 @parking-outline: saturate(darken(@parking, 40%), 20%);
 @railway: @industrial;
 @railway-line: @industrial-line;
@@ -50,12 +50,12 @@
 @leisure: lighten(@park, 5%);
 @power: darken(@industrial, 5%);
 @power-line: darken(@industrial-line, 5%);
-@sand: #f5e9c6;
-@societal_amenities: #ffffe5;   // Lch(99,13,109)
-@tourism: #660033;
-@quarry: #c5c3c3;
+@sand: #F2F3F0;
+@societal_amenities: #F2F3F0;   // Lch(99,13,109)
+@tourism: #F2F3F0;
+@quarry: #F2F3F0;
 @military: #f55;
-@beach: #fff1ba;
+@beach: #F2F3F0;
 @wastewater_plant: @industrial;
 @wastewater_plant-line: @industrial-line;
 @water_works: @industrial;
