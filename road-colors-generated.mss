@@ -6,7 +6,7 @@
 /*                                                                    */
 @motorway-casing: #e1e1e1;  
 @trunk-casing: #e1e1e1;    
-@primary-casing: #e1e1e1;   // Lighter version of the original #5e5e5e
+@primary-casing: #F2F3F0;   // Lighter version of the original #5e5e5e
 @secondary-casing: #e1e1e1; // Lighter version of the original #777777
 @motorway-fill: #e1e1e1;    // Lighter version of the original #474747
 @trunk-fill: #e1e1e1;       // Lighter version of the original #6f6f6f
@@ -19,7 +19,7 @@
 @motorway-low-zoom-casing: #e1e1e1; // Lighter version of the original #474747
 @trunk-low-zoom-casing: #e1e1e1;    // Lighter version of the original #5e5e5e
 @primary-low-zoom-casing: #e1e1e1;  // Lighter version of the original #777777
-@secondary-low-zoom-casing: #e1e1e1; // Lighter version of the original #919191
+@secondary-low-zoom-casing: #F2F3F0; // Lighter version of the original #919191
 @motorway-shield: #e1e1e1;  // Lighter version of the original #1b1b1b
 @trunk-shield: #e1e1e1;     // Lighter version of the original #292929
 @primary-shield: #e1e1e1;   // Lighter version of the original #383838
