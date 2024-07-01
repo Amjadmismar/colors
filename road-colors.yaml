@@ -1,0 +1,43 @@
+# This is the input for scripts/generate_road_colours.py
+
+# All road classes colours will be generated for, in order of importance
+# (biggest first).
+roads:
+  - motorway
+  - trunk
+  - primary
+  - secondary
+
+# The starting and ending hue. The range goes from 0 to 360, with 0 and 360
+# representing red.
+hue: [0, 0]  # Set hue to 0 for grayscale
+
+# The lightness and chroma (also known as saturation) for each type of colour.
+# Lightness ranges from 0 to 100; dark to bright.
+# Chroma ranges from 0 to 100 too; unsaturated to fully saturated.
+classes:
+  # Colours for output into the MSS file
+  mss:
+    fill:
+      lightness: [30, 80]  # Adjust lightness range for different shades of gray
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+    casing:
+      lightness: [20, 50]  # Darker shades for casing
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+    low-zoom:
+      lightness: [40, 70]  # Light shades for low zoom
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+    low-zoom-casing:
+      lightness: [30, 60]  # Adjust lightness for low zoom casing
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+    shield:
+      lightness: [10, 30]  # Dark shades for shields
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+  # Colours used by the road shields script
+  shield:
+    fill:
+      lightness: [30, 70]  # Adjust lightness for shield fill
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
+    stroke_fill:
+      lightness: [20, 50]  # Adjust lightness for shield stroke fill
+      chroma: [0, 0]       # Set chroma to 0 for grayscale
