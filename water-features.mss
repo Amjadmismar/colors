@@ -3,6 +3,7 @@
 @dam-line: #FFFFFF;
 @weir-line: #aaa;
 @lock-gate: #aaa;
+
 @lock-gate-line: #aaa;
 
 #water-barriers-point, #water-barriers-line, #water-barriers-poly {
